@@ -1,5 +1,30 @@
+/*!
+* \file divideconquer.c
+* \author Clément Couriol
+* \version 0.1
+* \date 20/10/2021
+* \brief 
+* \remarks None
+* 
+* 
+* 
+*/
+
+/*! Importation of librairies*/
 #include "../include/divideconquer.h"
 
+/*!
+* \fn int find_by_dichotomy(int array[], size_t size, int value)
+* \author Clément Couriol
+* \version 0.1
+* \date  20/10/2021
+* \brief Returns the index of the value you want, -1 if not found
+* \remarks None
+* \param array 
+* \param size 
+* \param value 
+* \return int
+*/
 int find_by_dichotomy(int array[], size_t size, int value)
 {
   size_t high = array[size], low = array[0];
