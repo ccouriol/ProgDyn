@@ -1,28 +1,22 @@
-/*!
-* \file divideconquer.c
-* \author Clément Couriol
-* \version 0.1
-* \date 20/10/2021
-* \brief 
-* \remarks None
-* 
-* 
-* 
-*/
+#include "../include/divideconquer.h"
 
-/*!
-* \fn int find_by_dichotomy(int array[], int size_t, int value)
-* \author Clément Couriol
-* \version 0.1
-* \date  20/10/2021
-* \brief 
-* \remarks None
-* \param array 
-* \param size_t 
-* \param value 
-* \return 
-*/
-int find_by_dichotomy(int array[], int size_t, int value)
+int find_by_dichotomy(int array[], size_t size, int value)
 {
-  return 0;
+  size_t high = array[size], low = array[0];
+
+  while (low <= high)
+  {
+    size_t mid = low + (high - low) / 2;
+
+    if (array[mid] == value)
+      return mid;
+
+    if (array[mid] < value)
+      low = mid + 1;
+
+    else
+      high = mid - 1;
+  }
+
+  return -1;
 }
