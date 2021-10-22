@@ -19,7 +19,7 @@ make clean #delete the documentation & program files
 ## Todo
 
 - [x] Exercice 1 : Divide and conquer
-- [ ] Exercice 2 : Greedy algorithm
+- [x] Exercice 2 : Greedy algorithm
 - [ ] Exercice 3 : Programmation dynamique : Problème du plus grand carré libre
 - [x] project name : ProgDyn
 - [x] work alone
