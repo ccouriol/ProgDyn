@@ -20,7 +20,7 @@ make clean #delete the documentation & program files
 
 - [x] Exercice 1 : Divide and conquer
 - [x] Exercice 2 : Greedy algorithm
-- [ ] Exercice 3 : Programmation dynamique : Problème du plus grand carré libre
+- [x] Exercice 3 : Programmation dynamique : Problème du plus grand carré libre
 - [x] project name : ProgDyn
 - [x] work alone
 - [x] work with git
